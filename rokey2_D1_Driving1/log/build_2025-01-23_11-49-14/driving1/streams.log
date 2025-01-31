@@ -1,0 +1,24 @@
+[0.485s] Invoking command in '/home/sujeong/rokey2_D1_Driving1/build/driving1': PYTHONPATH=/home/sujeong/rokey2_D1_Driving1/build/driving1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sujeong/rokey2_D1_Driving1/build/driving1/build --no-deps symlink_data
+[0.588s] /home/sujeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.588s]   warnings.warn(msg)
+[0.693s] running develop
+[0.832s] running egg_info
+[0.842s] creating driving1.egg-info
+[0.842s] writing driving1.egg-info/PKG-INFO
+[0.842s] writing dependency_links to driving1.egg-info/dependency_links.txt
+[0.842s] writing entry points to driving1.egg-info/entry_points.txt
+[0.843s] writing requirements to driving1.egg-info/requires.txt
+[0.843s] writing top-level names to driving1.egg-info/top_level.txt
+[0.843s] writing manifest file 'driving1.egg-info/SOURCES.txt'
+[0.863s] reading manifest file 'driving1.egg-info/SOURCES.txt'
+[0.863s] writing manifest file 'driving1.egg-info/SOURCES.txt'
+[0.874s] running build_ext
+[0.874s] Creating /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1.egg-link (link to .)
+[0.875s] Installing kitchen_gui script to /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/driving1
+[0.875s] 
+[0.875s] Installed /home/sujeong/rokey2_D1_Driving1/build/driving1
+[0.875s] running symlink_data
+[0.875s] creating /home/sujeong/rokey2_D1_Driving1/install/driving1/share/ament_index/resource_index/packages
+[0.875s] symbolically linking /home/sujeong/rokey2_D1_Driving1/build/driving1/resource/driving1 -> /home/sujeong/rokey2_D1_Driving1/install/driving1/share/ament_index/resource_index/packages
+[0.875s] symbolically linking /home/sujeong/rokey2_D1_Driving1/build/driving1/package.xml -> /home/sujeong/rokey2_D1_Driving1/install/driving1/share/driving1
+[0.897s] Invoked command in '/home/sujeong/rokey2_D1_Driving1/build/driving1' returned '0': PYTHONPATH=/home/sujeong/rokey2_D1_Driving1/build/driving1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sujeong/rokey2_D1_Driving1/build/driving1/build --no-deps symlink_data

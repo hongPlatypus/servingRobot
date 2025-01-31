@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from project3_interfaces/msg/TableCommand.msg
+// generated code does not contain a copyright notice
+
+
+module project3_interfaces {
+  module msg {
+    struct TableCommand {
+      string to_robot;
+    };
+  };
+};

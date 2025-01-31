@@ -1,0 +1,8 @@
+[console_scripts]
+init = project3.init:main
+pub = project3.pub:main
+pub_way = project3.pub_way:main
+sub = project3.sub:main
+way = project3.way:main
+waylast = project3.waylast:main
+

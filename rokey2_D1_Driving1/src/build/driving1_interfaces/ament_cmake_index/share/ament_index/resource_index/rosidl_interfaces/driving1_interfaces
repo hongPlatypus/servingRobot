@@ -1,0 +1,4 @@
+srv/NotifySoldout.idl
+srv/NotifySoldout.srv
+srv/NotifySoldout_Request.msg
+srv/NotifySoldout_Response.msg

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>driving1</name>
+  <version>0.0.0</version>
+  <description>Kitchen GUI for order processing</description>
+  <maintainer email="qaz2342004@naver.com">sujeong</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>PyQt5</depend>
+  <depend>project3_interfaces</depend>
+  <depend>driving1_interfaces</depend> <!-- Add this line -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

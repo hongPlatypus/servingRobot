@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: driving1
+Version: 0.0.0
+Summary: Kitchen GUI for order processing
+Maintainer: sujeong
+Maintainer-email: qaz2342004@naver.com
+License: TODO: License declaration
+Requires-Dist: setuptools
+Requires-Dist: rclpy
+Requires-Dist: project3_interfaces
+Requires-Dist: driving1_interfaces
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

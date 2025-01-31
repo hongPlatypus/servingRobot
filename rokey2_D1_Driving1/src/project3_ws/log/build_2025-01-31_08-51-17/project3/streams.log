@@ -1,0 +1,29 @@
+[0.559s] Invoking command in '/home/yeonho/project3_ws/src/project3': AMENT_PREFIX_PATH=/home/yeonho/project3_ws/install/project3_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeonho/project3_ws/install/project3_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yeonho/project3_ws/install/project3_interfaces/lib:/home/yeonho/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yeonho/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yeonho/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yeonho/project3_ws/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yeonho/project3_ws/install/project3/lib/python3.10/site-packages:/home/yeonho/project3_ws/install/project3_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project3 build --build-base /home/yeonho/project3_ws/build/project3/build install --record /home/yeonho/project3_ws/build/project3/install.log --single-version-externally-managed install_data
+[0.770s] running egg_info
+[0.770s] writing ../../build/project3/project3.egg-info/PKG-INFO
+[0.770s] writing dependency_links to ../../build/project3/project3.egg-info/dependency_links.txt
+[0.770s] writing entry points to ../../build/project3/project3.egg-info/entry_points.txt
+[0.771s] writing requirements to ../../build/project3/project3.egg-info/requires.txt
+[0.771s] writing top-level names to ../../build/project3/project3.egg-info/top_level.txt
+[0.772s] reading manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.773s] running build_py
+[0.773s] copying project3/waylast.py -> /home/yeonho/project3_ws/build/project3/build/lib/project3
+[0.773s] running install
+[0.774s] running install_lib
+[0.774s] copying /home/yeonho/project3_ws/build/project3/build/lib/project3/waylast.py -> /home/yeonho/project3_ws/install/project3/lib/python3.10/site-packages/project3
+[0.775s] byte-compiling /home/yeonho/project3_ws/install/project3/lib/python3.10/site-packages/project3/waylast.py to waylast.cpython-310.pyc
+[0.776s] running install_data
+[0.777s] running install_egg_info
+[0.778s] removing '/home/yeonho/project3_ws/install/project3/lib/python3.10/site-packages/project3-0.0.0-py3.10.egg-info' (and everything under it)
+[0.778s] Copying ../../build/project3/project3.egg-info to /home/yeonho/project3_ws/install/project3/lib/python3.10/site-packages/project3-0.0.0-py3.10.egg-info
+[0.779s] running install_scripts
+[0.795s] Installing init script to /home/yeonho/project3_ws/install/project3/lib/project3
+[0.795s] Installing pub script to /home/yeonho/project3_ws/install/project3/lib/project3
+[0.795s] Installing pub_way script to /home/yeonho/project3_ws/install/project3/lib/project3
+[0.795s] Installing sub script to /home/yeonho/project3_ws/install/project3/lib/project3
+[0.795s] Installing way script to /home/yeonho/project3_ws/install/project3/lib/project3
+[0.796s] Installing waylast script to /home/yeonho/project3_ws/install/project3/lib/project3
+[0.796s] writing list of installed files to '/home/yeonho/project3_ws/build/project3/install.log'
+[0.816s] Invoked command in '/home/yeonho/project3_ws/src/project3' returned '0': AMENT_PREFIX_PATH=/home/yeonho/project3_ws/install/project3_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeonho/project3_ws/install/project3_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yeonho/project3_ws/install/project3_interfaces/lib:/home/yeonho/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yeonho/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yeonho/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yeonho/project3_ws/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yeonho/project3_ws/install/project3/lib/python3.10/site-packages:/home/yeonho/project3_ws/install/project3_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project3 build --build-base /home/yeonho/project3_ws/build/project3/build install --record /home/yeonho/project3_ws/build/project3/install.log --single-version-externally-managed install_data

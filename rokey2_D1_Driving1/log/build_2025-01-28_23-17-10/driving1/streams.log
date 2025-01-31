@@ -1,0 +1,54 @@
+[0.532s] Invoking command in '/home/sujeong/rokey2_D1_Driving1/src/driving1': AMENT_PREFIX_PATH=/home/sujeong/rokey2_D1_Driving1/install/project3_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sujeong/rokey2_D1_Driving1/install/project3_interfaces:/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sujeong/rokey2_D1_Driving1/install/project3_interfaces/lib:/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/lib:/home/sujeong/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sujeong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sujeong/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PKG_CONFIG_PATH=/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/lib/pkgconfig PYTHONPATH=/home/sujeong/rokey2_D1_Driving1/build/driving1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages:/home/sujeong/rokey2_D1_Driving1/install/project3_interfaces/lib/python3.10/site-packages:/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/lib/python3.10/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/driving1 build --build-base /home/sujeong/rokey2_D1_Driving1/build/driving1/build install --record /home/sujeong/rokey2_D1_Driving1/build/driving1/install.log --single-version-externally-managed install_data
+[0.647s] /home/sujeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.647s]   warnings.warn(msg)
+[0.709s] running egg_info
+[0.719s] writing ../../build/driving1/driving1.egg-info/PKG-INFO
+[0.722s] writing dependency_links to ../../build/driving1/driving1.egg-info/dependency_links.txt
+[0.722s] writing entry points to ../../build/driving1/driving1.egg-info/entry_points.txt
+[0.722s] writing requirements to ../../build/driving1/driving1.egg-info/requires.txt
+[0.722s] writing top-level names to ../../build/driving1/driving1.egg-info/top_level.txt
+[0.743s] reading manifest file '../../build/driving1/driving1.egg-info/SOURCES.txt'
+[0.744s] writing manifest file '../../build/driving1/driving1.egg-info/SOURCES.txt'
+[0.745s] running build
+[0.745s] running build_py
+[0.745s] copying driving1/db_handler2.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.745s] copying driving1/db_handler.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.745s] copying driving1/jokfinal4.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.745s] copying driving1/__init__.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.745s] copying driving1/kitchen_main 2.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.746s] copying driving1/kitchen_gui.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.746s] copying driving1/kitchen_main.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.746s] copying driving1/jokfinal3.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.746s] copying driving1/ros_kitchen_nodes.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.746s] copying driving1/jokfinal2.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.746s] copying driving1/ui_order.py -> /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1
+[0.746s] running install
+[0.749s] running install_lib
+[0.760s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/db_handler2.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.760s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/db_handler.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.760s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/jokfinal4.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.760s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/kitchen_main 2.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.760s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/kitchen_gui.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.760s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/kitchen_main.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.760s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/jokfinal3.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.760s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/ros_kitchen_nodes.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.761s] copying /home/sujeong/rokey2_D1_Driving1/build/driving1/build/lib/driving1/jokfinal2.py -> /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1
+[0.761s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/db_handler2.py to db_handler2.cpython-310.pyc
+[0.762s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/db_handler.py to db_handler.cpython-310.pyc
+[0.763s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/jokfinal4.py to jokfinal4.cpython-310.pyc
+[0.765s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/kitchen_main 2.py to kitchen_main 2.cpython-310.pyc
+[0.765s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/kitchen_gui.py to kitchen_gui.cpython-310.pyc
+[0.766s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/kitchen_main.py to kitchen_main.cpython-310.pyc
+[0.766s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/jokfinal3.py to jokfinal3.cpython-310.pyc
+[0.768s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/ros_kitchen_nodes.py to ros_kitchen_nodes.cpython-310.pyc
+[0.769s] byte-compiling /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1/jokfinal2.py to jokfinal2.cpython-310.pyc
+[0.770s] running install_data
+[0.771s] copying resource/driving1 -> /home/sujeong/rokey2_D1_Driving1/install/driving1/share/ament_index/resource_index/packages
+[0.771s] copying package.xml -> /home/sujeong/rokey2_D1_Driving1/install/driving1/share/driving1
+[0.771s] running install_egg_info
+[0.782s] removing '/home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.782s] Copying ../../build/driving1/driving1.egg-info to /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages/driving1-0.0.0-py3.10.egg-info
+[0.783s] running install_scripts
+[0.867s] Installing kitchen_gui script to /home/sujeong/rokey2_D1_Driving1/install/driving1/lib/driving1
+[0.868s] writing list of installed files to '/home/sujeong/rokey2_D1_Driving1/build/driving1/install.log'
+[0.887s] Invoked command in '/home/sujeong/rokey2_D1_Driving1/src/driving1' returned '0': AMENT_PREFIX_PATH=/home/sujeong/rokey2_D1_Driving1/install/project3_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sujeong/rokey2_D1_Driving1/install/project3_interfaces:/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sujeong/rokey2_D1_Driving1/install/project3_interfaces/lib:/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/lib:/home/sujeong/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sujeong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sujeong/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PKG_CONFIG_PATH=/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/lib/pkgconfig PYTHONPATH=/home/sujeong/rokey2_D1_Driving1/build/driving1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sujeong/rokey2_D1_Driving1/install/driving1/lib/python3.10/site-packages:/home/sujeong/rokey2_D1_Driving1/install/project3_interfaces/lib/python3.10/site-packages:/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/lib/python3.10/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sujeong/rokey2_D1_Driving1/install/driving1_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/driving1 build --build-base /home/sujeong/rokey2_D1_Driving1/build/driving1/build install --record /home/sujeong/rokey2_D1_Driving1/build/driving1/install.log --single-version-externally-managed install_data

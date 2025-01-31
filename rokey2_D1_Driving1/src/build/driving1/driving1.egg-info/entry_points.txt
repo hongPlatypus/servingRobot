@@ -1,0 +1,2 @@
+[console_scripts]
+kitchen_gui = driving1.kitchen_gui:main

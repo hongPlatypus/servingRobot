@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from driving1_interfaces/srv/NotifySoldout.srv
+// generated code does not contain a copyright notice
+
+
+module driving1_interfaces {
+  module srv {
+    struct NotifySoldout_Request {
+      string message;
+    };
+    struct NotifySoldout_Response {
+      boolean success;
+
+      string response_message;
+    };
+  };
+};
